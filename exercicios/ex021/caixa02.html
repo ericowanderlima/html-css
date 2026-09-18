@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping tags</title>
+  <style>
+    body{
+      background-color: darkgray;
+      margin: 0px;
+    }
+    header, main{
+      background-color: rgba(255, 255, 255, 0.503);
+      border-radius: 10px;
+      padding: 10px;
+      margin: 5px;
+    }
+    header h1{
+      text-align: center;
+      font-family: monospace;
+      font-size: 32px;
+      font-weight: bolder;
+    }
+
+    section > .artigo02{
+      margin-left: auto;
+    }
+
+    main section > .artigo02{
+      width: 300px;
+      text-align: justify;
+      background-color: white;
+      padding: 10px;
+      border-radius: 10px 0px;
+      h2{
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.378);
+        text-align: center;
+      }
+    }
+
+    header{
+      padding: 50px;
+    }
+
+    header nav{
+      text-align: center;
+    }
+
+    header nav > a{
+      display: inline-block;
+      margin: 0px 30px;
+      background-color: blueviolet;
+      padding: 5px;
+      border-radius: 5px;
+      color: goldenrod;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.57);
+    }
+
+
+    header nav > a:hover{
+      background-color: rgb(196, 139, 249);
+      color: rgb(252, 252, 252);
+      border: 1px solid red;
+      
+    }
+
+
+    p {
+      text-indent: 20px;
+    }
+
+    section .artigo02{
+      box-shadow: 1px 1px 3px black;
+    }
+
+    aside > p{
+      text-indent: 0px;
+    }
+
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      Grouping tags - Trabalhando com semânticas
+    </h1>
+    <nav>
+      <a href="#">link01</a>
+      <a href="#">link02</a>
+      <a href="#">link03</a>
+      <a href="#">link04</a>
+      <a href="#">link05</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure mollitia ducimus quasi earum nobis ut in iste dolorem eveniet veniam. Nostrum quia impedit deserunt quo. Officia vero aliquam incidunt nulla!</p>
+    </section>
+
+    <section>
+      <article>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti minima quaerat deleniti quibusdam consequatur eius velit, reprehenderit aliquam similique asperiores aperiam repudiandae sequi nemo facilis corporis amet. Ad, adipisci odit?
+        Tenetur praesentium aut cum consequatur, ducimus quod quaerat perferendis voluptas porro iure aperiam eum dolorem cumque quia nisi at. Deserunt optio dolorem enim sunt iusto ipsam, saepe corporis animi libero.</p>
+      </article>
+
+      <article class="artigo02">
+
+        <h2>Noticias sobre o brasil</h2>
+
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, necessitatibus. Praesentium officiis, vero ducimus deserunt itaque corrupti nisi iste sequi obcaecati suscipit at veniam laboriosam, fugit, nihil eos explicabo rerum?</p>
+
+        <aside>
+         <p>Fonte: É.rico</p>
+        </aside>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    ©️curso em video.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+Dica: HTML é id, no CSS é # (O id só pode em uma TAG.)
+      HTML é class, no CSS é . (A class pode em mais de uma TAG.
+*/
+
+body{
+  background-color: rgb(154, 208, 179);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  color:rgb(38, 63, 50) ;
+}
+
+h1#principal{
+  text-align: center;
+  background-color: rgb(95, 94, 94);
+  border-radius: 5px;
+  color: white;
+}
+
+h2{
+  color: rgb(3, 87, 44);
+}
+
+h2.basico{
+  color: yellow;
+}
+
+h2.intermediario{
+  color: green;
+}
+
+h2.avançado{
+  color: red;
+}
+
+h2.destaque{
+  background-color: rgba(245, 101, 101, 0.712);
+  padding: 5px 5px 5px 25px;
+  border-radius: 10px;
+  width: 190px;
+
+}

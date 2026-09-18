@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+      background-color:rgb(76, 9, 9);
+    }
+    h1{
+      font-size: 32px;
+      color: rgb(148, 148, 148);
+    }
+
+    h2{
+      font-size: 24px;
+      color: dimgrey;
+    }
+    p{
+      font-family: monospace;
+      color: white;
+    }
+
+    a{
+      color: rgb(50, 216, 21);
+    }
