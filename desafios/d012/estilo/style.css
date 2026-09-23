@@ -9,9 +9,16 @@
   padding: 0px;
 }
 
+:root{
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: "Passion One", sans-serif;
+  --fonte3: "Sriracha", cursive;
+}
+
 html, body{
   min-height: 100vh;
   background-color: darkgray;
+  
 }
 
 
