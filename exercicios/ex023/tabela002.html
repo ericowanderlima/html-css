@@ -10,6 +10,22 @@
       width: 500px;
       border: 2px solid red;
       border-collapse: collapse;
+      position: relative;
+    }
+
+    /* Titulo da tabela */
+    caption{
+      background-color: lightcyan;
+      font-weight: bolder;
+      border: 2px solid red;
+      padding: 10px;
+    }
+
+    /* Efeito zebrado */
+    tbody{
+      tr:nth-child(odd){
+        background-color: burlywood;
+      }
     }
 
     td,th{
@@ -21,6 +37,14 @@
       text-align: right;
     }
 
+
+    thead{
+      th{
+        position: sticky;
+        top: -1px;
+        background-color: gray;
+      }
+    }
     
     thead, tfoot{
       background-color: gray;
@@ -35,19 +59,46 @@
   <table>
     <caption>População das Unidades Federativas</caption>
     <thead>
-      <tr>
+      <tr> 
         <th>Estado</th>
-        <th>População</th>
+        <th style="width: 100px;">População</th> 
       </tr>
     </thead>
     <tbody>
-      <td>Pará</td>
-      <td class="num">230.000</td>
+      <tr>
+        <td>Pará</td>
+        <td class="num">230.000</td>
+      </tr>
+
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">5.999</td>
+      </tr>
     </tbody>
     <tfoot>
       <th>Total de população</th>
       <td class="num"><strong>230.000</strong></td>
     </tfoot>
   </table>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fugit adipisci laudantium qui debitis voluptas, eveniet ducimus ipsam eius expedita nostrum quae doloremque magnam esse nemo sint aliquam nam veniam.
+  Harum nesciunt fugiat, blanditiis necessitatibus ipsa tenetur odit iusto eum in repellendus quam corporis rerum? Ut, autem dolor quisquam modi fuga et, pariatur consequuntur ipsa eum maiores, ad hic mollitia.
+  Ea, modi! Quaerat, sunt. Temporibus illum sit inventore laboriosam dolores, perspiciatis tenetur libero sunt rem ullam voluptatum architecto harum sint pariatur, nisi blanditiis nemo voluptates laudantium. Velit dolore eaque reiciendis?
+  Sed eos possimus ducimus, natus adipisci odio sint impedit ea perferendis dolores reprehenderit corrupti qui. Voluptate eos inventore excepturi quae veritatis dolorum ipsum. Incidunt at voluptatum temporibus expedita consequuntur dolore?
+  Exercitationem doloremque incidunt nostrum placeat ipsa asperiores ea corporis deserunt suscipit! Ipsa porro similique animi laboriosam qui! Provident, ut! Aspernatur aut, maiores expedita nulla enim alias quasi placeat ducimus architecto!
+  Enim odio doloribus itaque similique, velit dolore! Dolores, nisi minus aliquam quod illum itaque? Ex sunt, ullam optio perspiciatis labore ipsum a? Inventore magni est qui beatae cupiditate aliquam dicta!
+  Adipisci rem id tempore ducimus, consequatur placeat sit iusto ipsam autem. Eius, facere repellendus nulla blanditiis recusandae, eveniet aliquam beatae magnam inventore accusamus excepturi est dolores, impedit at corrupti non?
+  Nihil error provident, tempore eius beatae, rem nobis reiciendis odio doloremque aliquam aperiam vero iste cum voluptatum, sunt sequi neque at suscipit. Magni, voluptate eos consequuntur nulla rerum quidem mollitia.
+  Nesciunt in iure accusantium odit error totam voluptatibus vero magni harum, sapiente commodi, autem qui odio distinctio! Autem qui quibusdam, delectus consectetur quae odio assumenda amet atque, est ab beatae.
+  Tenetur neque voluptate voluptatibus ut eveniet atque laboriosam suscipit facilis, praesentium impedit earum quaerat doloribus commodi. Iste nesciunt animi incidunt accusantium earum, quo necessitatibus a quisquam dolore molestiae voluptatum provident.
+  Voluptatem at id deleniti placeat soluta perferendis quos accusamus quisquam quis accusantium eligendi sunt commodi consequatur vitae rem blanditiis, error nemo unde harum atque nostrum quasi eveniet! Tempore, ipsa fugiat!
+  Numquam itaque ducimus accusantium, suscipit eveniet labore laboriosam quis deserunt architecto, nesciunt ex blanditiis maxime inventore ab consectetur ad facilis! Enim ipsum qui quibusdam neque ut adipisci quaerat culpa similique.
+  Nesciunt nisi aspernatur vitae perferendis corporis omnis sunt perspiciatis, laboriosam blanditiis voluptatem fuga. Corporis quibusdam ipsum, perspiciatis fuga vitae dolore veritatis magni quas accusamus optio itaque excepturi ea quis. Totam.
+  Voluptas minus dolor assumenda maxime modi, at, mollitia sequi ad hic saepe nam culpa, dignissimos tempore aliquam aut quo. Laboriosam natus eius ad libero recusandae quibusdam fuga possimus aperiam neque?
+  Harum veritatis, error nisi cupiditate officia placeat minima dolore porro. Porro, aspernatur? Vitae vero placeat ut omnis quibusdam natus officiis, consectetur ex adipisci dolore ad minima sequi praesentium qui exercitationem.
+  Illo sequi ipsam officiis illum! Repellat quis dolore ab ducimus alias totam exercitationem consequuntur accusantium autem necessitatibus incidunt culpa voluptatibus, tempore minima consequatur dolor molestiae assumenda ut qui, labore facere?
+  Rem totam omnis, sequi molestiae at aliquam et commodi illum est nobis eligendi voluptate, voluptatibus officiis labore natus eum ea. Alias iusto corrupti ut ab molestiae, aspernatur soluta ipsam eius.
+  Sapiente repellendus repudiandae nulla dolorem reprehenderit maiores. Ducimus excepturi nulla aliquid unde ad, quod ut ullam. Ratione, provident placeat. Recusandae corrupti minus quis voluptatibus cumque ipsam debitis unde ratione ipsum.
+  Eligendi, error laudantium? Aliquam, molestiae. Tempora, magni? Architecto nisi corrupti impedit optio sapiente, dolorum delectus! Debitis veniam facilis blanditiis esse quia? Aspernatur natus qui architecto soluta consequuntur minus eum deserunt!
+  Provident iste, mollitia recusandae esse aliquid, nesciunt quod ex distinctio eum qui quia aperiam vel debitis dolorum accusantium sapiente tenetur nulla quis nostrum? Dolorem natus quam dolores, harum quia incidunt.</p>
 </body>
 </html>
