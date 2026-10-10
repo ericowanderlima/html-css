@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo</title>
+
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body{
+      background-image: linear-gradient(-30deg, rgb(220, 85, 1), transparent);
+      background-attachment: fixed;
+    }
+
+    section{
+      border: 1px solid white;
+      border-radius: 10% 0%;
+      width: 400px;
+      min-height: 400px;
+      position: absolute;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      p{
+        font-family: cursive;
+        font-size: 15em;
+        width: 150px;
+        height: 150px;
+      }
+
+      p.e{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-130%, -160%);
+      }
+
+      p.EE{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-30%, -40%);
+        font-size: 7em;
+      }
+
+      p.g{
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        transform: translate(130%, -30%);
+      }
+
+      p.sobrenome{
+        font-family: monospace;
+        font-size: 5em;
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 150px;
+        top: 80px;
+        width: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <p class="e">E</p>
+      <p class="EE">&</p>
+      <p class="g">G</p>
+      <p class="sobrenome">Launé Lima</p>
+    </div>
+  </section>
+</body>
+</html>
