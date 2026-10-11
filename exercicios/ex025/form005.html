@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário 005</title>
+
+  <style>
+    form{
+
+      fieldset{
+        
+      }
+
+      p{
+          display: inline-block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Checkbox e Radio</h1>
+
+  <form action="cadastro.py" method="get" autocomplete="on">
+
+    <fieldset>
+      <legend>
+        Sexo
+      </legend>
+
+      <input type="radio" name="sexo" id="imasc" value="M">
+      <label for="imasc">Masculino</label>
+
+      <input type="radio" name="sexo" id="ifem" value="F">
+      <label for="ifem">Feminino</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <p>
+          Checkbox / Radio - Esportes favoritos
+        </p>
+      </legend>
+
+      <p>
+        <input type="checkbox" name="esportfut" id="iesportfut" checked> 
+        <label for="iesportfut">Futebol</label><br>
+
+        <input type="checkbox" name="espotbasq" id="iesportbasq">
+        <label for="iesportbasq">Basquete</label><br>
+
+        <input type="checkbox" name="esportnat" id="iesportnat">
+        <label for="iesportnat">Natação</label><br>
+
+        <input type="checkbox" name="esportten" id="iesportten">
+        <label for="iesportten">Tênis</label><br>
+      </p>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+      </p>
+
+      <p>
+        <input type="reset" value="Limpar">
+      </p>
+
+  </form>
+</body>
+</html>
