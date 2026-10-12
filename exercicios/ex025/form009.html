@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário 009 - output</title>
+</head>
+<body>
+  <h1>Testendo output</h1>
+
+  <form action="cadastro.py" method="get" autocomplete="on">
+
+    <fieldset>
+      <legend>
+        Caixa de Range
+      </legend>
+
+      <label for="inum">Números: </label>
+      <input type="range" name="num" id="inum" min="0" max="10" oninput="ival.innerHTML = Number(inum.value)">
+      <output name="val" id="ival">5</output>
+
+      
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+  </form>
+</body>
+</html>
