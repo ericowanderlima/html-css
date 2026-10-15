@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Aparelho em pé - portrait */
+
+body{  
+  /* ../ significa sair da pasta estilos, entrar na pasta imagens e acessar a foto para modo retrato */
+
+  background: url('../imagens/cev-portrait.jpg');
+}
