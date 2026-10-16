@@ -13,8 +13,7 @@ body{
   height: 100vh;
   background-color: steelblue;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
+  background-size: cover;
 
 
   h1{

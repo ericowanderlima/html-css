@@ -5,5 +5,6 @@
 body{  
   /* ../ significa sair da pasta estilos, entrar na pasta imagens e acessar a foto para modo retrato */
 
-  background: url('../imagens/cev-portrait.jpg');
+  background-image: url('../imagens/cev-portrait.jpg');
+  background-position: left bottom;
 }
