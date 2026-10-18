@@ -3,3 +3,10 @@
 /* Todas as outras medias */
 
 /* Typical Device Breakpoints */
+
+
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+  body{
+    background-image: url('../imagens/back-tablet.jpg');
+  }
+}
