@@ -23,20 +23,33 @@ h1{
 menu{
 
   div{
-    
-    img{
-      display: block;
-      width: 30px;
-      margin: auto;
-    }
+    text-align: center;
+    width: 30px;
   }
 
-  .:hover{
+  span{
+    display: inline-block;
+    color: rgb(0, 36, 114);
+    display: block;
+    width: 60px;
+  }
+
+ 
+
+  li{
+      background-color: lightslategray;
+    }
+
+  
+  div:hover{
 
     ul{
       display: block;
     }
 
+    a{
+      color: white;
+    }
   }
    
 }
@@ -45,30 +58,25 @@ ul{
   text-align: center;
   list-style-type: none;
   display: none;
+  position: absolute;
 }
 
 li{
   border: 2px solid rgb(71, 69, 69);
-  margin-bottom: 5px;
   border-radius: 5px;
+  width: 100%;
 }
 
 a{
   display: block;
+  margin: auto;
   text-decoration: none;
   padding: 10px;
   width: 100px;
-  margin: auto;
+  font-size: 1em;
 }
 
-li:hover{
-  background-color: rgb(80, 72, 72);
 
-  a{
-    color: white;
-    font-weight: bold;
-  }
-}
 
 main{
   background-color: white;
