@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media print {
+  body{
+
+    header{
+      box-shadow: none;
+
+      div{
+        display: none;
+      }
+    }
+
+    main{
+      margin-top: 20px;
+    }
+  }
+
+  main::after{
+    content: 'Érico lima';
+  }
+
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 992px){
+  div{
+    span{
+      display: none;
+    }
+  }
+}
