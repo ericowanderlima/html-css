@@ -21,31 +21,35 @@ body{
 
     div{
       margin: auto;
-      width: 150px;
+      width: 100%;
       text-align: center;
     }
 
-    span{
+    button{
       display: inline-block;
       background-image: radial-gradient(circle, rgba(255, 255, 255, 0.203), transparent 25%);
       cursor: pointer;
     }
 
-    ul{
-      list-style-type: none;
-      margin-bottom: 20px;
-      display: none;
+    menu#itens{
 
-      li{
-        text-align: center;
-        border-top: 1px solid black;
-        padding: 5px;
-        margin-bottom: 5px;
-        a{
-          text-decoration: none;
-          color: black;
-          display: inline-block;
-          width: 100%;
+    
+      ul{
+        list-style-type: none;
+        margin-bottom: 20px;
+        display: none;
+
+        li{
+          text-align: center;
+          border-top: 1px solid black;
+          padding: 5px;
+          margin-bottom: 5px;
+          a{
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            width: 100%;
+          }
         }
       }
     }

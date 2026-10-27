@@ -23,10 +23,29 @@
 }
 
 
-@media screen and (min-width: 420px) and (max-width: 992px){
-  div{
-    span{
-      display: none;
+@media screen and (min-width: 768px) {
+  header{
+    h1{
+      color: yellow;
+    }
+
+    div{
+      
+      button{
+        color: chartreuse;
+        cursor: pointer;
+      }
+
+      menu#itens{
+        width: 100%;
+        ul{
+          display: inline-block;
+          width: 100%;
+          li{
+            display: inline-block;
+          }
+        }
+      }
     }
   }
 }
