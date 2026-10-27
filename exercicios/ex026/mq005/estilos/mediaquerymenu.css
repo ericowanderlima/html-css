@@ -1,51 +1,10 @@
 @charset "UTF-8";
 
-@media print {
-  body{
-
-    header{
-      box-shadow: none;
-
-      div{
-        display: none;
-      }
-    }
-
-    main{
-      margin-top: 20px;
-    }
-  }
-
-  main::after{
-    content: 'Érico lima';
-  }
-
-}
-
-
 @media screen and (min-width: 768px) {
-  header{
-    h1{
-      color: yellow;
-    }
-
-    div{
-      
-      button{
-        color: chartreuse;
-        cursor: pointer;
-      }
-
-      menu#itens{
-        width: 100%;
-        ul{
-          display: inline-block;
-          width: 100%;
-          li{
-            display: inline-block;
-          }
-        }
-      }
+  div{
+    button{
+      display: none;
+      background-color: blueviolet;
     }
   }
 }
