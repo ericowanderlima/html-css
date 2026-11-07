@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+div.conteiner{
+  background-color: yellow;
+  padding: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  
+
+
+  div.filho{
+    p{
+      text-align: center;
+    }
+
+    
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    padding: 5px;
+  }
+}
