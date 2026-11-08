@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+div.conteiner{
+  background-color: rgb(73, 71, 71);
+  height: 500px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  div.filho{
+    p{
+      text-align: center;
+      padding: 10px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+  }
+}
