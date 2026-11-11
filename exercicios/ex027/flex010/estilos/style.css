@@ -11,17 +11,35 @@ div.conteiner{
   background-color: yellow;
   padding: 5px;
   display: flex;
+  flex-flow: row nowrap;
   
 
 
   div.filho{
     p{
-      text-align: center;
-    }
+      text-align: justify;
+      text-indent: 40px;
 
-    flex: auto;
+    }
+    padding: 10px;
+    flex-basis: 150px;
     background-color: black;
     color: white;
     border: 1px solid orange;
+  }
+
+  div#filho-1{
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  div#filho-2{
+    flex-grow: 1;
+    flex-shrink: 2;
+  }
+
+  div#filho-3{
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
