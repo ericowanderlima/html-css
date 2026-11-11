@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+div.conteiner{
+  background-color: yellow;
+  
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 400px;
+  
+
+
+  div.filho{
+    p{
+      text-align: center;
+    }
+
+    align-self: center;
+    flex-basis: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+  }
+}
