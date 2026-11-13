@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+div.conteiner{
+  background-color: yellow;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  
+
+
+  div.filho{
+    p{
+      text-align: justify;
+      text-indent: 40px;
+
+    }
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+  }
+
+  div#filho-1{
+    flex: 2 1 250px;
+  }
+
+  div#filho-2{
+    flex: 1 2 250px;
+  }
+
+  div#filho-3{
+    flex: 0 0 250px;
+  }
+}
