@@ -8,50 +8,64 @@
 }
 
 header{
+  background-color: chocolate;
+  padding: 5px;
   display: flex;
-  background-color: lightsteelblue;
   justify-content: center;
-  align-items: flex-start;
-  /*align-content: stretch;*/
+  align-items: center;
+  align-content: space-evenly;
   flex-flow: row wrap;
-  height: 150px;
 
   section#titulo{
-    padding: 5px;
-    align-self: center;
-    flex: 2 0 auto;
-
+    background-color: chartreuse;
+    width: 50%;
     h1{
       text-align: center;
     }
   }
+
+  span#hamburguer{
+    color: white;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+  }
+
   
   section#menu{
-    align-self: center;
-    flex: 0 0 auto;
+    background-color: aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+    width: 320px;
+    
+    
     ul{
+      background-color: cornflowerblue;
       list-style-type: none;
+      padding: 5px; 
+
       li{
+        background-color: crimson;
         border: 1px solid black;
-        display: inline-block;
-        border-radius: 4px;
-        padding: 5px;
+        border-radius: 7px;
+        text-align: center;
 
         a{
           text-decoration: none;
-          color: rgb(21, 60, 118);
-          font-weight: bold;
+          color: black;
+          padding: 5px;
+          display: inline-block;
         }
-
       }
 
       li:hover{
-          background-color: rgb(198, 220, 252);
-          
-          a{
-            color: blue;
-          }
+        background-color: rgb(213, 73, 101);
+
+        a{
+          font-weight: bold;
         }
+      }
     }
   }
+  
 }

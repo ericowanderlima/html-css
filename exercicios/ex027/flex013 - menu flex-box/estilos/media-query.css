@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 425px) and (max-width: 756px) {
+  section#titulo{
+    width: 30%;
+  }
+
+  section#menu{
+    width: 70%;
+  }
+  h1{
+    color: black;
+  }
+
+  ul{
+    width: 100%;
+
+    li{
+      display: inline-block;
+    }
+  }
+  
+}
