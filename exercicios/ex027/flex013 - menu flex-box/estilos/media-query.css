@@ -1,23 +1,42 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 425px) and (max-width: 756px) {
-  section#titulo{
-    width: 30%;
-  }
+@media screen and (min-width: 600px)and (max-width: 992px){
+  
+  header{
+    justify-content: space-evenly;
 
-  section#menu{
-    width: 70%;
-  }
-  h1{
-    color: black;
-  }
-
-  ul{
-    width: 100%;
-
-    li{
-      display: inline-block;
+    nav{
+      width: 600px;
+      
+      a{
+        display: inline-block;
+        width: 70px;
+        padding: 10px;
+      }
     }
   }
-  
+}
+
+@media screen and (min-width: 992px){
+  header{
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    h1{
+      width: 15%;
+    }
+
+    nav{
+      width: 850px;
+
+      a{
+        display: inline-block;
+        width: 120px;
+      }
+    }
+  }
+
+  main{
+    width: 900px;
+  }
 }
