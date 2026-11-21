@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(253, 233, 204);
+  width: 100vw;
+  height: 100vh;
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    
+
+    h1{
+      border: 1px dotted black;
+      flex: 0 0 200px;
+    }
+
+    nav{
+      border: 1px dotted black;
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+      a{
+        text-decoration: none;
+        background-color: darkgoldenrod;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
