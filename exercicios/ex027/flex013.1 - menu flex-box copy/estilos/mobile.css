@@ -1,26 +1,34 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 325px) and (max-width: 672px){
-  header, nav{
+  header{
     flex-flow: column wrap; 
+    padding: 5px;
   }
 
-  header{
-    border: 1px dotted red;
-    padding: 5px;
+  nav{
+    flex-flow: column nowrap;
+    flex:0 0 auto;
   }
 
 
   h1{
     text-align: center;
+    margin: auto;
   }
 
   nav{
     width: 90%;
+    margin: auto;
     
 
     a{
       text-align: center;
+    }
+
+    a:hover{
+      background-color: white;
+      color: black;
     }
   }
 }
